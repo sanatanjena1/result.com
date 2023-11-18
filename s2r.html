@@ -1,0 +1,2108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 Photo List with Image Zooming and Download</title>
+  <audio src="music.mp4" controls autoplay loop hidden></audio>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <style>
+    body {
+      padding: 20px;
+    }
+  </style>
+
+</head>
+<body>
+
+<!-- search bar -->
+<div class="container">
+  <!-- result section -->
+  <h1 class="text-center">MCA Student Results</h1>
+  <div class="result-container">
+      <!-- Student results will be displayed here -->
+      
+  </div>
+  <label for="student-id">Student Registration Number (2205297001 - 2205297155):</label>
+  <div class="input-group mb-3">
+      <input type="number" id="registrationInput" autofocus  class="form-control" placeholder="Enter Registration Number">
+      <div class="input-group-append">
+          <button class="btn btn-primary" id="searchButton">Search</button>
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+  <!-- Marksheet start -->
+
+
+<div class="container">
+  <h3 class="mt-4 mb-4">155 Student MarkSheet Photo List with Image Zooming and Download</h3>
+
+  <!-- Photo Cards -->
+  <div class="row">
+    <!-- Photo 1 -->
+    <div class="col-md-4 mb-4">
+      <a href="s1.png" class="image-link">
+        <div class="card">
+          <img src="s1.png" class="card-img-top" alt="Photo 1">
+          <div class="card-body">
+            <h5 class="card-title">Photo 1</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297001</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s1.png', 'photo1.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Photo 2 -->
+    <div class="col-md-4 mb-4">
+      <a href="s2.png" class="image-link">
+        <div class="card">
+          <img src="s2.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 2</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297002</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s2.png', 'photo2.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 3 -->
+    <div class="col-md-4 mb-4">
+      <a href="s3.png" class="image-link">
+        <div class="card">
+          <img src="s3.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 3</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297003</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s3.png', 'photo3.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 4 -->
+    <div class="col-md-4 mb-4">
+      <a href="s4.png" class="image-link">
+        <div class="card">
+          <img src="s4.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 4</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297004</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s4.png', 'photo4.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo  5-->
+    <div class="col-md-4 mb-4">
+      <a href="s5.png" class="image-link">
+        <div class="card">
+          <img src="s5.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 5</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297005</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s5.png', 'photo5.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 6 -->
+    <div class="col-md-4 mb-4">
+      <a href="s6.png" class="image-link">
+        <div class="card">
+          <img src="s6.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 6</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297006</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s6.png', 'photo6.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 7 -->
+    <div class="col-md-4 mb-4">
+      <a href="s7.png" class="image-link">
+        <div class="card">
+          <img src="s7.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 7</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">220529707</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s7.png', 'photo7.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 8 -->
+    <div class="col-md-4 mb-4">
+      <a href="s8.png" class="image-link">
+        <div class="card">
+          <img src="s8.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 8</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297008</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s8.png', 'photo.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 9 -->
+    <div class="col-md-4 mb-4">
+      <a href="s9.png" class="image-link">
+        <div class="card">
+          <img src="s9.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 9</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297009</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s9.png', 'photo9.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 10 -->
+    <div class="col-md-4 mb-4">
+      <a href="s10.png" class="image-link">
+        <div class="card">
+          <img src="s10.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 10</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297010</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s10.png', 'photo10.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 11 -->
+    <div class="col-md-4 mb-4">
+      <a href="s11.png" class="image-link">
+        <div class="card">
+          <img src="s11.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 11</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297011</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s11.png', 'photo11.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 12 -->
+    <div class="col-md-4 mb-4">
+      <a href="s12.png" class="image-link">
+        <div class="card">
+          <img src="s12.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 12</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297012</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s12.png', 'photo12.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 13 -->
+    <div class="col-md-4 mb-4">
+      <a href="s13.png" class="image-link">
+        <div class="card">
+          <img src="s13.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 13</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297013</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s13.png', 'photo13.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 14 -->
+    <div class="col-md-4 mb-4">
+      <a href="s14.png" class="image-link">
+        <div class="card">
+          <img src="s14.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 14</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297014</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s14.png', 'photo14.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 15 -->
+    <div class="col-md-4 mb-4">
+      <a href="s15.png" class="image-link">
+        <div class="card">
+          <img src="s15.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 15</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297015</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s15.png', 'photo15.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 16 -->
+    <div class="col-md-4 mb-4">
+      <a href="s16.png" class="image-link">
+        <div class="card">
+          <img src="s16.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 16</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297016</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s16.png', 'photo16.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 17 -->
+    <div class="col-md-4 mb-4">
+      <a href="s17.png" class="image-link">
+        <div class="card">
+          <img src="s17.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 17</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297017</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s17.png', 'photo17.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 18 -->
+    <div class="col-md-4 mb-4">
+      <a href="s18.png" class="image-link">
+        <div class="card">
+          <img src="s18.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 18</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297018</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s18.png', 'photo18.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 19 -->
+    <div class="col-md-4 mb-4">
+      <a href="s19.png" class="image-link">
+        <div class="card">
+          <img src="s19.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 19</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297019</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s19.png', 'photo19.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 20 -->
+    <div class="col-md-4 mb-4">
+      <a href="s20.png" class="image-link">
+        <div class="card">
+          <img src="s20.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 20</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297020</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s20.png', 'photo20.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 21 -->
+    <div class="col-md-4 mb-4">
+      <a href="s21.png" class="image-link">
+        <div class="card">
+          <img src="s21.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 21</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297021</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s21.png', 'photo21.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 22 -->
+    <div class="col-md-4 mb-4">
+      <a href="s22.png" class="image-link">
+        <div class="card">
+          <img src="s22.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 22</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297022</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s22.png', 'photo22.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 23 -->
+    <div class="col-md-4 mb-4">
+      <a href="s23.png" class="image-link">
+        <div class="card">
+          <img src="s23.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 23</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297023</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s23.png', 'photo23.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 24 -->
+    <div class="col-md-4 mb-4">
+      <a href="s24.png" class="image-link">
+        <div class="card">
+          <img src="s24.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 24</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297024</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s24.png', 'photo24.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 25 -->
+    <div class="col-md-4 mb-4">
+      <a href="s25.png" class="image-link">
+        <div class="card">
+          <img src="s25.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 25</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297025</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s25.png', 'photo.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 26 -->
+    <div class="col-md-4 mb-4">
+      <a href="s26.png" class="image-link">
+        <div class="card">
+          <img src="s26.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 26</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297026</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s26.png', 'photo26.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 27 -->
+    <div class="col-md-4 mb-4">
+      <a href="s27.png" class="image-link">
+        <div class="card">
+          <img src="s27.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 27</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297027</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s27.png', 'photo27.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 28 -->
+    <div class="col-md-4 mb-4">
+      <a href="s28.png" class="image-link">
+        <div class="card">
+          <img src="s28.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 28</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297028</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s28.png', 'photo28.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 29 -->
+    <div class="col-md-4 mb-4">
+      <a href="s29.png" class="image-link">
+        <div class="card">
+          <img src="s29.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 29</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297029</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s29.png', 'photo29.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 30 -->
+    <div class="col-md-4 mb-4">
+      <a href="s30.png" class="image-link">
+        <div class="card">
+          <img src="s30.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 30</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297030</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s30.png', 'photo30.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 31 -->
+    <div class="col-md-4 mb-4">
+      <a href="s31.png" class="image-link">
+        <div class="card">
+          <img src="s31.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 31</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297031</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s31.png', 'photo31.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 32 -->
+    <div class="col-md-4 mb-4">
+      <a href="s32.png" class="image-link">
+        <div class="card">
+          <img src="s32.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 32</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297032</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s32.png', 'photo32.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 33 -->
+    <div class="col-md-4 mb-4">
+      <a href="s33.png" class="image-link">
+        <div class="card">
+          <img src="s33.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 33</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297033</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s33.png', 'photo33.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 34 -->
+    <div class="col-md-4 mb-4">
+      <a href="s34.png" class="image-link">
+        <div class="card">
+          <img src="s34.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 34</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297034</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s34.png', 'photo34.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 35 -->
+    <div class="col-md-4 mb-4">
+      <a href="s35.png" class="image-link">
+        <div class="card">
+          <img src="s35.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 35</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297035</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s35.png', 'photo35.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 36 -->
+    <div class="col-md-4 mb-4">
+      <a href="s36.png" class="image-link">
+        <div class="card">
+          <img src="s36.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 36</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297036</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s36.png', 'photo36.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 37 -->
+    <div class="col-md-4 mb-4">
+      <a href="s37.png" class="image-link">
+        <div class="card">
+          <img src="s37.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 37</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297037</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s37.png', 'photo37.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 38 -->
+    <div class="col-md-4 mb-4">
+      <a href="s38.png" class="image-link">
+        <div class="card">
+          <img src="s38.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 38</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297038</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s38.png', 'photo38.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 39 -->
+    <div class="col-md-4 mb-4">
+      <a href="s39.png" class="image-link">
+        <div class="card">
+          <img src="s39.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 39</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297039</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s39.png', 'photo39.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 40 -->
+    <div class="col-md-4 mb-4">
+      <a href="s40.png" class="image-link">
+        <div class="card">
+          <img src="s40.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 40</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297040</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s40.png', 'photo40.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 41 -->
+    <div class="col-md-4 mb-4">
+      <a href="s41.png" class="image-link">
+        <div class="card">
+          <img src="s41.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 41</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297041</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s41.png', 'photo41.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 42 -->
+    <div class="col-md-4 mb-4">
+      <a href="s42.png" class="image-link">
+        <div class="card">
+          <img src="s42.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 42</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297042</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s42.png', 'photo42.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 43 -->
+    <div class="col-md-4 mb-4">
+      <a href="s43.png" class="image-link">
+        <div class="card">
+          <img src="s43.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 43</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297043</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s43.png', 'photo43.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 44 -->
+    <div class="col-md-4 mb-4">
+      <a href="s44.png" class="image-link">
+        <div class="card">
+          <img src="s44.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 44</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297044</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s44.png', 'photo44.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 45 -->
+    <div class="col-md-4 mb-4">
+      <a href="s45.png" class="image-link">
+        <div class="card">
+          <img src="s45.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 45</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297045</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s45.png', 'photo45.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 46 -->
+    <div class="col-md-4 mb-4">
+      <a href="s46.png" class="image-link">
+        <div class="card">
+          <img src="s46.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 46</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297046</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s46.png', 'photo46.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 47 -->
+    <div class="col-md-4 mb-4">
+      <a href="s47.png" class="image-link">
+        <div class="card">
+          <img src="s47.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 47</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297047</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s47.png', 'photo47.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 48 -->
+    <div class="col-md-4 mb-4">
+      <a href="s48.png" class="image-link">
+        <div class="card">
+          <img src="s48.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 48</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297048</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s48.png', 'photo48.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 49 -->
+    <div class="col-md-4 mb-4">
+      <a href="s49.png" class="image-link">
+        <div class="card">
+          <img src="s49.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 49</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297049</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s49.png', 'photo49.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 50 -->
+    <div class="col-md-4 mb-4">
+      <a href="s50.png" class="image-link">
+        <div class="card">
+          <img src="s50.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 50</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297050</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s50.png', 'photo50.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 51 -->
+    <div class="col-md-4 mb-4">
+      <a href="s51.png" class="image-link">
+        <div class="card">
+          <img src="s51.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 51</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297051</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s51.png', 'photo51.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 52 -->
+    <div class="col-md-4 mb-4">
+      <a href="s52.png" class="image-link">
+        <div class="card">
+          <img src="s52.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 52</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297052</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s52.png', 'photo52.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 53 -->
+    <div class="col-md-4 mb-4">
+      <a href="s53.png" class="image-link">
+        <div class="card">
+          <img src="s53.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 53</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297053</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s53.png', 'photo53.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 54 -->
+    <div class="col-md-4 mb-4">
+      <a href="s54.png" class="image-link">
+        <div class="card">
+          <img src="s54.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 54</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297054</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s54.png', 'photo54.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 55 -->
+    <div class="col-md-4 mb-4">
+      <a href="s55.png" class="image-link">
+        <div class="card">
+          <img src="s55.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 55</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297055</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s55.png', 'photo55.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 56 -->
+    <div class="col-md-4 mb-4">
+      <a href="s56.png" class="image-link">
+        <div class="card">
+          <img src="s56.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 56</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297056</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s56.png', 'photo56.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 57 -->
+    <div class="col-md-4 mb-4">
+      <a href="s57.png" class="image-link">
+        <div class="card">
+          <img src="s57.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 57</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297057</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s57.png', 'photo57.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 58 -->
+    <div class="col-md-4 mb-4">
+      <a href="s58.png" class="image-link">
+        <div class="card">
+          <img src="s58.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 58</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297058</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s58.png', 'photo58.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 59 -->
+    <div class="col-md-4 mb-4">
+      <a href="s59.png" class="image-link">
+        <div class="card">
+          <img src="s59.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 59</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297059</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s59.png', 'photo59.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 60 -->
+    <div class="col-md-4 mb-4">
+      <a href="s60.png" class="image-link">
+        <div class="card">
+          <img src="s60.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 60</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297060</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s60.png', 'photo60.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 61 -->
+    <div class="col-md-4 mb-4">
+      <a href="s61.png" class="image-link">
+        <div class="card">
+          <img src="s61.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 61</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297061</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s61.png', 'photo61.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 62 -->
+    <div class="col-md-4 mb-4">
+      <a href="s62.png" class="image-link">
+        <div class="card">
+          <img src="s62.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 62</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297062</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s62.png', 'photo62.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 63 -->
+    <div class="col-md-4 mb-4">
+      <a href="/s63.png" class="image-link">
+        <div class="card">
+          <img src="s63.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 63</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297063</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s63.png', 'photo63.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 64 -->
+    <div class="col-md-4 mb-4">
+      <a href="s64.png" class="image-link">
+        <div class="card">
+          <img src="s64.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 64</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297064</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s64.png', 'photo64.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 65 -->
+    <div class="col-md-4 mb-4">
+      <a href="s65.png" class="image-link">
+        <div class="card">
+          <img src="s65.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 65</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297065</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s65.png', 'photo65.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 66 -->
+    <div class="col-md-4 mb-4">
+      <a href="s66.png" class="image-link">
+        <div class="card">
+          <img src="s66.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 66</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297066</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s66.png', 'photo66.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 67 -->
+    <div class="col-md-4 mb-4">
+      <a href="s67.png" class="image-link">
+        <div class="card">
+          <img src="s67.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 67</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297067</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s67.png', 'photo67.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 68 -->
+    <div class="col-md-4 mb-4">
+      <a href="s68.png" class="image-link">
+        <div class="card">
+          <img src="s68.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 68</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297068</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s68.png', 'photo68.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 69 -->
+    <div class="col-md-4 mb-4">
+      <a href="s69.png" class="image-link">
+        <div class="card">
+          <img src="s69.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 69</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297069</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s69.png', 'photo69.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 70 -->
+    <div class="col-md-4 mb-4">
+      <a href="s70.png" class="image-link">
+        <div class="card">
+          <img src="s70.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 70</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297070</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s70.png', 'photo70.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 71 -->
+    <div class="col-md-4 mb-4">
+      <a href="s71.png" class="image-link">
+        <div class="card">
+          <img src="s71.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 71</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297071</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s71.png', 'photo71.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 72 -->
+    <div class="col-md-4 mb-4">
+      <a href="s72.png" class="image-link">
+        <div class="card">
+          <img src="s72.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 72</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297072</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s72.png', 'photo72.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 73 -->
+    <div class="col-md-4 mb-4">
+      <a href="s73.png" class="image-link">
+        <div class="card">
+          <img src="s73.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 73</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297073</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s73.png', 'photo73.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 74 -->
+    <div class="col-md-4 mb-4">
+      <a href="s74.png" class="image-link">
+        <div class="card">
+          <img src="s74.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 74</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297074</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s74.png', 'photo74.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 75 -->
+    <div class="col-md-4 mb-4">
+      <a href="s75.png" class="image-link">
+        <div class="card">
+          <img src="s75.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 75</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297075</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s75.png', 'photo75.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 76 -->
+    <div class="col-md-4 mb-4">
+      <a href="s76.png" class="image-link">
+        <div class="card">
+          <img src="s76.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 76</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297076</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s76.png', 'photo76.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 77 -->
+    <div class="col-md-4 mb-4">
+      <a href="s77.png" class="image-link">
+        <div class="card">
+          <img src="s77.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 77</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297077</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s77.png', 'photo77.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 78 -->
+    <div class="col-md-4 mb-4">
+      <a href="s78.png" class="image-link">
+        <div class="card">
+          <img src="s78.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 78</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297078</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s78.png', 'photo78.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 79 -->
+    <div class="col-md-4 mb-4">
+      <a href="s79.png" class="image-link">
+        <div class="card">
+          <img src="s79.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 79</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297079</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s79.png', 'photo79.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 80 -->
+    <div class="col-md-4 mb-4">
+      <a href="s80.png" class="image-link">
+        <div class="card">
+          <img src="s80.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 80</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297080</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s80.png', 'photo80.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 81 -->
+    <div class="col-md-4 mb-4">
+      <a href="s81.png" class="image-link">
+        <div class="card">
+          <img src="s81.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 81</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297081</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s81.png', 'photo81.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 82 -->
+    <div class="col-md-4 mb-4">
+      <a href="s82.png" class="image-link">
+        <div class="card">
+          <img src="s82.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 82</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297082</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s82.png', 'photo82.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 83 -->
+    <div class="col-md-4 mb-4">
+      <a href="s83.png" class="image-link">
+        <div class="card">
+          <img src="s83.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 83</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297083</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s83.png', 'photo83.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 84 -->
+    <div class="col-md-4 mb-4">
+      <a href="s84.png" class="image-link">
+        <div class="card">
+          <img src="s84.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 84</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297084</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s84.png', 'photo84.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 85 -->
+    <div class="col-md-4 mb-4">
+      <a href="s85.png" class="image-link">
+        <div class="card">
+          <img src="s85.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 85</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297085</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s85.png', 'photo85.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 86 -->
+    <div class="col-md-4 mb-4">
+      <a href="s86.png" class="image-link">
+        <div class="card">
+          <img src="s86.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 86</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297086</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s86.png', 'photo86.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 87 -->
+    <div class="col-md-4 mb-4">
+      <a href="s87.png" class="image-link">
+        <div class="card">
+          <img src="s87.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 87</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297087</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s87.png', 'photo87.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 88 -->
+    <div class="col-md-4 mb-4">
+      <a href="s88.png" class="image-link">
+        <div class="card">
+          <img src="s88.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 88</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297088</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s88.png', 'photo88.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 89 -->
+    <div class="col-md-4 mb-4">
+      <a href="s89.png" class="image-link">
+        <div class="card">
+          <img src="s89.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 89</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297089</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s89.png', 'photo89.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 90 -->
+    <div class="col-md-4 mb-4">
+      <a href="s90.png" class="image-link">
+        <div class="card">
+          <img src="s90.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 90</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297090</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s90.png', 'photo90.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 91 -->
+    <div class="col-md-4 mb-4">
+      <a href="s91.png" class="image-link">
+        <div class="card">
+          <img src="s91.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 91</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297091</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s91.png', 'photo91.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 92 -->
+    <div class="col-md-4 mb-4">
+      <a href="s92.png" class="image-link">
+        <div class="card">
+          <img src="s92.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 92</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297092</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s92.png', 'photo92.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 93 -->
+    <div class="col-md-4 mb-4">
+      <a href="s93.png" class="image-link">
+        <div class="card">
+          <img src="s93.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 93</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297093</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s93.png', 'photo93.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 94 -->
+    <div class="col-md-4 mb-4">
+      <a href="s94.png" class="image-link">
+        <div class="card">
+          <img src="s94.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 94</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297094</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s94.png', 'photo94.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 95 -->
+    <div class="col-md-4 mb-4">
+      <a href="s95.png" class="image-link">
+        <div class="card">
+          <img src="s95.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 95</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297095</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s95.png', 'photo95.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 96 -->
+    <div class="col-md-4 mb-4">
+      <a href="s96.png" class="image-link">
+        <div class="card">
+          <img src="s96.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 96</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297096</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s96.png', 'photo96.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 97 -->
+    <div class="col-md-4 mb-4">
+      <a href="s97.png" class="image-link">
+        <div class="card">
+          <img src="s97.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 97</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297097</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s97.png', 'photo97.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 98 -->
+    <div class="col-md-4 mb-4">
+      <a href="s98.png" class="image-link">
+        <div class="card">
+          <img src="s98.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 98</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297098</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s98.png', 'photo98.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 99 -->
+    <div class="col-md-4 mb-4">
+      <a href="s99.png" class="image-link">
+        <div class="card">
+          <img src="s99.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 99</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297099</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s99.png', 'photo99.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 100 -->
+    <div class="col-md-4 mb-4">
+      <a href="s100.png" class="image-link">
+        <div class="card">
+          <img src="s100.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 100</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297100</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s100.png', 'photo100.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 101 -->
+    <div class="col-md-4 mb-4">
+      <a href="s101.png" class="image-link">
+        <div class="card">
+          <img src="s101.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 101</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">220527101</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s101.png', 'photo101.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 102 -->
+    <div class="col-md-4 mb-4">
+      <a href="s102.png" class="image-link">
+        <div class="card">
+          <img src="s102.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 102</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297102</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s102.png', 'photo102.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 103 -->
+    <div class="col-md-4 mb-4">
+      <a href="s103.png" class="image-link">
+        <div class="card">
+          <img src="s103.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 103</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297103</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s103.png', 'photo103.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 104 -->
+    <div class="col-md-4 mb-4">
+      <a href="s104.png" class="image-link">
+        <div class="card">
+          <img src="s104.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 104</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297104</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s104.png', 'photo104.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 105 -->
+    <div class="col-md-4 mb-4">
+      <a href="s105.png" class="image-link">
+        <div class="card">
+          <img src="s105.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 105</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297105</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s105.png', 'photo105.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 106 -->
+    <div class="col-md-4 mb-4">
+      <a href="s106.png" class="image-link">
+        <div class="card">
+          <img src="s106.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 106</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297106</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s106.png', 'photo106.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 107 -->
+    <div class="col-md-4 mb-4">
+      <a href="s107.png" class="image-link">
+        <div class="card">
+          <img src="s107.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 107</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297107</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s107.png', 'photo107.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 108 -->
+    <div class="col-md-4 mb-4">
+      <a href="s108.png" class="image-link">
+        <div class="card">
+          <img src="s108.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 108</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297108</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s108.png', 'photo.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 109 -->
+    <div class="col-md-4 mb-4">
+      <a href="s109.png" class="image-link">
+        <div class="card">
+          <img src="s109.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 109</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297109</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s109.png', 'photo109.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 110 -->
+    <div class="col-md-4 mb-4">
+      <a href="s110.png" class="image-link">
+        <div class="card">
+          <img src="s110.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 110</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297110</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s110.png', 'photo110.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 111 -->
+    <div class="col-md-4 mb-4">
+      <a href="s111.png" class="image-link">
+        <div class="card">
+          <img src="s111.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 111</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297111</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s111.png', 'photo111.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 112 -->
+    <div class="col-md-4 mb-4">
+      <a href="s112.png" class="image-link">
+        <div class="card">
+          <img src="s112.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 112</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297112</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s112.png', 'photo112.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 113 -->
+    <div class="col-md-4 mb-4">
+      <a href="s113.png" class="image-link">
+        <div class="card">
+          <img src="s113.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 113</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297113</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s113.png', 'photo113.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 114 -->
+    <div class="col-md-4 mb-4">
+      <a href="s114.png" class="image-link">
+        <div class="card">
+          <img src="s114.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 114</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297114</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s114.png', 'photo114.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 115 -->
+    <div class="col-md-4 mb-4">
+      <a href="s115.png" class="image-link">
+        <div class="card">
+          <img src="s115.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 115</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">22052970115</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s115.png', 'photo115.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 116 -->
+    <div class="col-md-4 mb-4">
+      <a href="s116.png" class="image-link">
+        <div class="card">
+          <img src="s116.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 116</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297116</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s116.png', 'photo116.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+      <!-- Photo 117 -->
+    <div class="col-md-4 mb-4">
+      <a href="s117.png" class="image-link">
+        <div class="card">
+          <img src="s117.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 117</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297117</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s117.png', 'photo117.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 118 -->
+    <div class="col-md-4 mb-4">
+      <a href="s118.png" class="image-link">
+        <div class="card">
+          <img src="s118.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 118</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297118</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s118.png', 'photo118.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 119 -->
+    <div class="col-md-4 mb-4">
+      <a href="s119.png" class="image-link">
+        <div class="card">
+          <img src="s119.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 119</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297119</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s119.png', 'photo119.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 120 -->
+    <div class="col-md-4 mb-4">
+      <a href="s120.png" class="image-link">
+        <div class="card">
+          <img src="s120.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 120</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297120</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s120.png', 'photo120.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 1 -->
+    <div class="col-md-4 mb-4">
+      <a href="s121.png" class="image-link">
+        <div class="card">
+          <img src="s121.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 121</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297121</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s121.png', 'photo121.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 122 -->
+    <div class="col-md-4 mb-4">
+      <a href="s122.png" class="image-link">
+        <div class="card">
+          <img src="s122.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 122</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297122</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s122.png', 'photo122.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 1 -->
+    <div class="col-md-4 mb-4">
+      <a href="s123.png" class="image-link">
+        <div class="card">
+          <img src="s123.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 123</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297123</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s123.png', 'photo123.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 1 -->
+    <div class="col-md-4 mb-4">
+      <a href="s124.png" class="image-link">
+        <div class="card">
+          <img src="s124.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 124</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297124</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s124.png', 'photo124.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 125 -->
+    <div class="col-md-4 mb-4">
+      <a href="s125.png" class="image-link">
+        <div class="card">
+          <img src="s125.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 125</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297125</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s125.png', 'photo125.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 126 -->
+    <div class="col-md-4 mb-4">
+      <a href="s126.png" class="image-link">
+        <div class="card">
+          <img src="s126.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 126</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297126</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s126.png', 'photo126.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 127 -->
+    <div class="col-md-4 mb-4">
+      <a href="s127.png" class="image-link">
+        <div class="card">
+          <img src="s127.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 127</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297127</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s127.png', 'photo127.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 128 -->
+    <div class="col-md-4 mb-4">
+      <a href="s128.png" class="image-link">
+        <div class="card">
+          <img src="s128.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 128</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297128</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s128.png', 'photo128.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 129 -->
+    <div class="col-md-4 mb-4">
+      <a href="s129.png" class="image-link">
+        <div class="card">
+          <img src="s129.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 129</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297129</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s129.png', 'photo129.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 130 -->
+    <div class="col-md-4 mb-4">
+      <a href="s130.png" class="image-link">
+        <div class="card">
+          <img src="s130.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 130</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297130</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s130.png', 'photo130.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 131 -->
+    <div class="col-md-4 mb-4">
+      <a href="s131.png" class="image-link">
+        <div class="card">
+          <img src="s131.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 131</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297131</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s131.png', 'photo131.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 132 -->
+    <div class="col-md-4 mb-4">
+      <a href="s132.png" class="image-link">
+        <div class="card">
+          <img src="s132.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 132</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297132</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s132.png', 'photo132.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 133 -->
+    <div class="col-md-4 mb-4">
+      <a href="s133.png" class="image-link">
+        <div class="card">
+          <img src="s133.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 133</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297133</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s133.png', 'photo133.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 134 -->
+    <div class="col-md-4 mb-4">
+      <a href="s134.png" class="image-link">
+        <div class="card">
+          <img src="s134.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 134</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297134</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s134.png', 'photo134.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 135 -->
+    <div class="col-md-4 mb-4">
+      <a href="s135.png" class="image-link">
+        <div class="card">
+          <img src="s135.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 135</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297135</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s135.png', 'photo135.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 136 -->
+    <div class="col-md-4 mb-4">
+      <a href="s136.png" class="image-link">
+        <div class="card">
+          <img src="s136.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 136</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297136</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s136.png', 'photo136.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 137 -->
+    <div class="col-md-4 mb-4">
+      <a href="s137.png" class="image-link">
+        <div class="card">
+          <img src="s137.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 137</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297137</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s137.png', 'photo137.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 138 -->
+    <div class="col-md-4 mb-4">
+      <a href="s138.png" class="image-link">
+        <div class="card">
+          <img src="s138.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 138</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297138</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s138.png', 'photo138.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 139 -->
+    <div class="col-md-4 mb-4">
+      <a href="s139.png" class="image-link">
+        <div class="card">
+          <img src="s139.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 139</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297139</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s139.png', 'photo139.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 140 -->
+    <div class="col-md-4 mb-4">
+      <a href="s140.png" class="image-link">
+        <div class="card">
+          <img src="s140.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 140</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297140</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s140.png', 'photo140.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 141 -->
+    <div class="col-md-4 mb-4">
+      <a href="s141.png" class="image-link">
+        <div class="card">
+          <img src="s141.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 141</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297141</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s141.png', 'photo141.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 142 -->
+    <div class="col-md-4 mb-4">
+      <a href="s142.png" class="image-link">
+        <div class="card">
+          <img src="s142.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 142</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297142</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s142.png', 'photo142.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 143 -->
+    <div class="col-md-4 mb-4">
+      <a href="s143.png" class="image-link">
+        <div class="card">
+          <img src="s143.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 143</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297143</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s143.png', 'photo143.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 144 -->
+    <div class="col-md-4 mb-4">
+      <a href="s144.png" class="image-link">
+        <div class="card">
+          <img src="s144.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 1</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297144</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s144.png', 'photo144.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 145 -->
+    <div class="col-md-4 mb-4">
+      <a href="s145.png" class="image-link">
+        <div class="card">
+          <img src="s145.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 145</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297145</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s145.png', 'photo145.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 146 -->
+    <div class="col-md-4 mb-4">
+      <a href="s146.png" class="image-link">
+        <div class="card">
+          <img src="s146.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 146</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297146</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s146.png', 'photo146.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 147 -->
+    <div class="col-md-4 mb-4">
+      <a href="s147.png" class="image-link">
+        <div class="card">
+          <img src="s147.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 147</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297147</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s147.png', 'photo147.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 148 -->
+    <div class="col-md-4 mb-4">
+      <a href="s148.png" class="image-link">
+        <div class="card">
+          <img src="s148.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 148</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297148</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s148.png', 'photo148.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 149 -->
+    <div class="col-md-4 mb-4">
+      <a href="s149.png" class="image-link">
+        <div class="card">
+          <img src="s149.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 149</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297149</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s149.png', 'photo149.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 150 -->
+    <div class="col-md-4 mb-4">
+      <a href="s150.png" class="image-link">
+        <div class="card">
+          <img src="s150.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 150</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297150</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s150.png', 'photo150.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 151 -->
+    <div class="col-md-4 mb-4">
+      <a href="s151.png" class="image-link">
+        <div class="card">
+          <img src="s151.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 151</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297151</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s151.png', 'photo151.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 152 -->
+    <div class="col-md-4 mb-4">
+      <a href="s152.png" class="image-link">
+        <div class="card">
+          <img src="s152.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 152</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297152</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s152.png', 'photo152.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 153 -->
+    <div class="col-md-4 mb-4">
+      <a href="s153.png" class="image-link">
+        <div class="card">
+          <img src="s153.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 153</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297153</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s153.png', 'photo153.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 154 -->
+    <div class="col-md-4 mb-4">
+      <a href="s154.png" class="image-link">
+        <div class="card">
+          <img src="s154.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 154</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297154</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s154.png', 'photo154.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Photo 155 -->
+    <div class="col-md-4 mb-4">
+      <a href="s155.png" class="image-link">
+        <div class="card">
+          <img src="s155.png" class="card-img-top" alt="MarkSheet Not Available">
+          <div class="card-body">
+            <h5 class="card-title">Photo 155</h5>
+            <p class="card-text">Registration No: <span style="background-color: yellow;">2205297155</span></p>
+            <button class="btn btn-primary" onclick="downloadImage('s155.png', 'photo155.jpg')">Download</button>
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+
+
+    <!-- Repeat the structure for the remaining photos -->
+    <!-- Photo 3 ... Photo 10 -->
+
+  </div>
+</div>
+
+
+
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Magnific Popup JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.image-link').magnificPopup({type:'image'});
+  });
+
+  function downloadImage(url, fileName) {
+    var link = document.createElement('a');
+    link.href = url;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
+
+
+<!-- link javascript search -->
+
+<script src="script2.js"></script>
+
+</body>
+</html>

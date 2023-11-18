@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Navbar with Logo and Search</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-xl navbar-dark bg-d">
+    <a class="navbar-brand" href="https://www.thenalanda.com/" target="_blank">
+      <img src="/nalanda.jpg" alt="Logo" width="60px">
+    </a>
+    <a class="navbar-brand" href="https://www.thenalanda.com/" target="_blank">
+    <h5>(NIT) Bhubaneswar</h5>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.thenalanda.com/mca"><span>Branch - M.C.A</span></a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Top 10 Student</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">1st Semester</a>
+            <a class="dropdown-item" href="#">2nd Semester</a>
+            <a class="dropdown-item" href="#" hidden>3rd Semester</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            All Student List
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <a class="dropdown-item" href="#">First Semester List</a>
+            <a class="dropdown-item" href="/s2r.html">Second Semester List</a>
+            <a class="dropdown-item" href="#" hidden>Third Semester LIst</a>
+          </div>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/index6.html" target="_blank">Help & Support</a>
+        </li>
+        
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+
+  <!-- script -->
+  <script src="/script2.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
