@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Add custom styles for the marquee container */
+    .marquee-container {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      width: 100%;
+    }
+
+    /* Add custom styles for the marquee content */
+    .marquee-content {
+      display: inline-block;
+      animation: marquee 15s linear infinite;
+    }
+
+    /* Keyframes for the marquee animation */
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    /* Ensure images are responsive */
+    .marquee-content img {
+      max-width: 100%;
+      height: 100px;
+      margin: 40px;
+    }
+
+    /* Add styles for the row of divs */
+    .row-of-divs {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Add styles for individual divs */
+    .row-of-divs .custom-div {
+      flex: 0 0 calc(14.28% - 10px); /* 100% / 7 images - margin */
+      margin-right: 10px;
+      background-color: #f0f0f0;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-12">
+      <div class="marquee-container">
+        <div class="marquee-content">
+          <!-- Add your images here -->
+          <img src="clgimg/Pksir.png" alt="Image 1">
+          <img src="clgimg/Nsir.png" alt="Image 2">
+          <img src="clgimg/Gsir.png" alt="Image 3">
+          <img src="clgimg/Pmaam.png" alt="Image 4">
+          <img src="clgimg/Psir.png" alt="Image 5">
+          <img src="clgimg/Ssirp.png" alt="Image 6">
+          <img src="clgimg/Spsir.png" alt="Image 7">
+          <!-- Repeat the images as needed -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row of divs underneath the marquee -->
+  <div class="row row-of-divs">
+    <div class="col-12">
+      <div class="custom-div">Div 1</div>
+      <div class="custom-div">Div 2</div>
+      <div class="custom-div">Div 3</div>
+      <div class="custom-div">Div 4</div>
+      <div class="custom-div">Div 5</div>
+      <div class="custom-div">Div 6</div>
+      <div class="custom-div">Div 7</div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- hhh -->
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

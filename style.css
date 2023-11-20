@@ -49,3 +49,24 @@ body {
 /* span:hover{
   color: rgb(255, 255, 255);
 } */
+
+
+/* teachers */
+
+#scroll{
+  /* background-color: #f5f5f5; */
+  width: 1149px;
+  height: 120px;
+  float: left;
+  margin-top: 20px;
+}
+.bankli{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+
+
