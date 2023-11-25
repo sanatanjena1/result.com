@@ -1,0 +1,33 @@
+padding: 20px;
+}
+.counter-container {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: red;
+}
+.counter {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+
+
+
+.counter-container{
+    /* background-color: rgb(0, 183, 255); */
+    
+    /* border: 2px solid black; */
+    text-align: center;
+  border: 2px solid lightpink;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.counter-container:hover{
+    background-color: rgb(116, 208, 245) ;
+}

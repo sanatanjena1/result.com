@@ -33,7 +33,20 @@ body {
 
   .dropdown-item {
     color: hwb(0 4% 6%) !important;
+    
   }
+  .dropdown-item:hover{
+    background-color: rgb(192, 192, 240);
+    border-radius: 0px 60px 0px 60px;
+    border: 2px solid rgb(208, 236, 212);
+  }
+
+
+ .nav-item:hover .dropdown-menu{
+  display: block;
+ }
+
+
   h5{
       color: rgb(96, 252, 6);
   }
@@ -43,7 +56,8 @@ body {
     /* border-radius: 20px; */
     text-decoration: underline;
     background-color: rgb(108, 170, 218);
-    border-radius: 12px;
+    border-radius: 20px;
+    
     
 }
 /* span:hover{
@@ -70,3 +84,67 @@ body {
 
 
 
+/*  */
+ Add your media queries for responsiveness here
+ @media (min-width: 576px) {
+  /* Small devices (sm) */
+  .carousel-item {
+      max-width: 50%; /* Display two items in a row */
+  }
+}
+
+@media (min-width: 768px) {
+  /* Medium devices (md) */
+  .carousel-item {
+      max-width: 33.33%; /* Display three items in a row */
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item {
+    max-width: 100%; /* Display two items in a row */
+}
+  /* Large devices (lg) */
+}
+
+/* college about */
+.custom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Adjust to your needs */
+
+
+  .navbar {
+    background-color: #007bff; /* Navbar background color */
+  }
+
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+
+  /* counter student value */
+  .counter-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .counter {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .counter,.p{
+    color:black;
+    font-weight: 800;
+    font-size: 50px;
+  }
+  .counter{
+   
+    border: solid red 2px;
+    
+    height: 140px;
+  }
